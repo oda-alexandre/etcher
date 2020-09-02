@@ -1,0 +1,15 @@
+version: "2.0"
+
+services:
+  etcher:
+    container_name: etcher
+    image: alexandreoda/etcher
+    restart: no
+    network_mode: none
+    privileged: false
+    environment:
+      - DISPLAY
+    volumes:
+      - "${HOME}:/home/etcher"
+      - "/tmp/.X11-unix/:/tmp/.X11-unix/"
+      - "/dev/bus/usb:/dev/bus/usb"
