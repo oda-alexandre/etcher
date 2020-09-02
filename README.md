@@ -1,6 +1,6 @@
 # ETCHER
 
-![logo](https://assets.gitlab-static.net/uploads/-/system/project/avatar/13827678/etcherlogo.png)
+![logo](https://assets.gitlab-static.net/uploads/-/system/project/avatar/20894670/etcher.jpg)
 
 - [ETCHER](#etcher)
   - [BADGES](#badges)
