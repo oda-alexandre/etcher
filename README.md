@@ -41,6 +41,7 @@ Automatically updated on :
 docker run -d \
 --name etcher \
 -e DISPLAY \
+--privileged \
 -v ${HOME}:/home/etcher \
 -v /tmp/.X11-unix/:/tmp/.X11-unix/ \
 -v /dev/bus/usb:/dev/bus/usb \
